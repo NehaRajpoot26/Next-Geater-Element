@@ -4,7 +4,6 @@
 #include <vector>
 #include <stack>
 vector<int> nextGreaterElement(vector<int> input) {
-	// Write your code here
 stack<int>stack;
    stack.push(-1);
    vector<int>ans(input.size());
